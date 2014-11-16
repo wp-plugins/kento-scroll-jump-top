@@ -1,0 +1,198 @@
+html {
+	overflow-y: scroll;
+}
+/* core */
+.scrollToTop {
+	position: fixed;
+	right: 20px;
+	bottom: -100px;
+	opacity: 0;
+	
+	overflow: hidden;
+	outline: none;
+}
+
+.scrollToTop_show {
+	opacity: 1;
+	bottom: 20px;
+}
+
+@-webkit-keyframes scrollToTop_fade {
+	0%	 {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes scrollToTop_fade {
+	0%   {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes scrollToTop_slide {
+	0%   {bottom: -100px;}
+	100% {bottom: 20px;}
+}
+@keyframes scrollToTop_slide {
+	0%   {bottom: -100px;}
+	100% {bottom: 20px;}
+}
+
+
+.scrollToTop_animating,
+.scrollToTop_animating * {
+	pointer-events: none !important;
+}
+
+/* skin(default) */
+.scrollToTop {
+	width: 50px;
+	height: 50px;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.scrollToTop_default {
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	text-indent: 0;
+	background: #eee;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.scrollToTop_default:hover {
+	background-color: #ddd;
+}
+
+
+
+
+
+
+/* skin(cycle) */
+.scrollToTop_cycle {
+	background-image: url("cycle.png");
+}
+.scrollToTop_cycle:hover {
+	background-image: url("cycle-hover.png");
+}
+
+/* skin(square) */
+.scrollToTop_square {
+	background-image: url("square.png");
+}
+.scrollToTop_square:hover {
+	background-image: url("square-hover.png");
+}
+
+/* skin(text) */
+.scrollToTop_text {
+	background-image: url("text.png");
+}
+.scrollToTop_text:hover {
+	background-image: url("text-hover.png");
+}
+
+/* skin(triangle) */
+.scrollToTop_triangle {
+	background-image: url("triangle.png");
+}
+.scrollToTop_triangle:hover {
+	background-image: url("triangle-hover.png");
+}
+
+/* skin(black) */
+.scrollToTop_black{
+	background-image: url("black.png");
+}
+.scrollToTop_black:hover {
+	background-image: url("black-hover.png");
+}
+
+/* skin(white) */
+.scrollToTop_white{
+	background-image: url("white.png");
+}
+
+
+
+
+/* Home Style */
+
+
+/* skin(home) */
+.scrollToTop_home{
+	background-image: url("home.png");
+}
+/* skin(home_one) */
+.scrollToTop_homeone{
+	background-image: url("home-one.png");
+}
+
+/* skin(home_two) */
+.scrollToTop_hometwo{
+	background-image: url("home-two.png");
+}
+/* skin(home_three) */
+.scrollToTop_homethree{
+	background-image: url("home-three.png");
+}
+/* skin(home_four) */
+.scrollToTop_homefour{
+	background-image: url("home-four.png");
+}
+/* skin(home_five) */
+.scrollToTop_homefive{
+	background-image: url("home-five.png");
+}
+
+
+
+
+
+/* Arrow Css */
+
+/* skin(arrowone) */
+.scrollToTop_arrowone{
+	background-image: url("arrow-one.png");
+}
+/* skin(arrowtwo) */
+.scrollToTop_arrowtwo{
+	background-image: url("arrow-two.png");
+}
+
+/* skin(arrowthree) */
+.scrollToTop_arrowthree{
+	background-image: url("arrow-three.png");
+}
+.scrollToTop_arrowthree:hover {
+	background-image: url("arrow-three-hover.png");
+}
+
+/* skin(arrowfour) */
+.scrollToTop_arrowfour{
+	background-image: url("arrow-four.png");
+}
+.scrollToTop_arrowfour:hover {
+	background-image: url("arrow-four-hover.png");
+}
+
+/* skin(arrowfive) */
+.scrollToTop_arrowfive{
+	background-image: url("arrow-five.png");
+}
+.scrollToTop_arrowfive:hover {
+	background-image: url("arrow-five-hover.png");
+}
+/* skin(arrowsix) */
+.scrollToTop_arrowsix{
+	background-image: url("arrow-six.png");
+}
+.scrollToTop_arrowsix:hover {
+	background-image: url("arrow-six-hover.png");
+}
