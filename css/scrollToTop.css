@@ -196,3 +196,7 @@ html {
 .scrollToTop_arrowsix:hover {
 	background-image: url("arrow-six-hover.png");
 }
+
+a.scrollToTop:focus {
+  outline: medium none;
+}
