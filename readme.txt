@@ -37,6 +37,8 @@ Demo:
 1. Admin Panel
 
 == Changelog ==
+= 1.1 =
+* css fix
 
 = 1.0 =
 * Initial release
