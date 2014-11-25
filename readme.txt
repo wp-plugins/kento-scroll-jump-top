@@ -22,7 +22,7 @@ Plugin Features
 
 
 
-Demo:http://kentothemes.com/plugin_demo/kento-scroll-jump-top/
+Demo: http://kentothemes.com/plugin_demo/kento-scroll-jump-top/
 
 == Installation ==
 
