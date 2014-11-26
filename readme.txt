@@ -21,8 +21,7 @@ Plugin Features
 + Easy install and active
 
 
-
-Demo: http://kentothemes.com/plugin_demo/kento-scroll-jump-top/
+Plugin Demo and Support: http://kentothemes.com/items/plugins/kento-scroll-jump-top/
 
 == Installation ==
 
