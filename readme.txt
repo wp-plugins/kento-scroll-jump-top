@@ -2,7 +2,8 @@
 Contributors: kentothemes
 Donate link:
 Tags: scroll,jump,top,up,back to top,scroll to top,wordpress, plugin, icons, scroll plugin
-Tested up to: 4.0
+Requires at least: 3.8
+Tested up to: 4.2.2
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
